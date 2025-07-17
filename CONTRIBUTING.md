@@ -29,7 +29,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[Space Portfolio Code of Conduct](https://github.com/sanidhyy/space-portfolioblob/master/CODE_OF_CONDUCT.md).
+[Space Portfolio Code of Conduct](https://github.com/ahmaddii).
 By participating, you are expected to uphold this code. Please report unacceptable behavior
 to .
 

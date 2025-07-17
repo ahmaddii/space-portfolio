@@ -68,12 +68,7 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
+ 
   {
     skill_name: "Node.js",
     image: "node.png",
@@ -92,12 +87,12 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/pulsarx.inc/",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://web.facebook.com/mlk.ahmd.585443/",
   },
   {
     name: "Twitter",
@@ -206,36 +201,13 @@ export const BACKEND_SKILL = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
+
 ] as const;
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
+    skill_name: "Flutter",
+    image: "flutter.png",
     width: 70,
     height: 70,
   },
@@ -259,25 +231,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "PuslarX Software Solutions",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+    ('Pulsar X is a cutting-edge developer portfolio website built using Next.js framework and styled with Tailwind CSS for optimal performance and modern aesthetics. The portfolio serves as a comprehensive showcase of technical skills, featured projects, and demonstrates expertise in creating sleek, responsive web applications. Designed with an innovative space-inspired theme that reflects both creative vision and technical precision in web development. The platform goes beyond traditional portfolios by providing an immersive experience that tells the story of a developers professional journey and growth. Pulsar X represents not just a collection of work, but a testament to passion for web development and commitment to delivering exceptional user experiences.'),
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://my-pulsarx-project.vercel.app/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Rent Ease Mobile Application",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+    ('A comprehensive rental management platform that allows property owners to post new rental listings for homes, apartments, and commercial stores with real-time data synchronization. The application features Firebase authentication system to ensure secure user access and data encryption for all sensitive information. Real-time data is stored in the cloud database and dynamically fetched to display updated listings on the home screen instantly. Users can browse through available properties with live updates on availability, pricing, and property details. The system provides a seamless, secure experience for both property owners posting listings and tenants searching for rental properties'),
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://github.com/ahmaddii/Rent-Ease",
   },
   {
-    title: "Space Themed Website",
+    title: "Digital Nexus Buissnes Solutions",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+    ('A comprehensive recruitment management system designed specifically for software companies to streamline their hiring process and solve job recruitment challenges. The Nexus solution provides end-to-end functionality for posting job openings, managing candidate applications, and tracking the entire recruitment workflow. Built with a robust backend infrastructure using MySQL database and PHP server-side scripting to handle all data storage and processing needs seamlessly. The system enables efficient candidate screening, interview scheduling, and applicant tracking with real-time updates and secure data management. This integrated platform significantly reduces recruitment time and improves hiring efficiency for software companies while maintaining organized candidate records and streamlined communication.'),
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://digitalnexuss.netlify.app/",
   },
 ] as const;
 
@@ -293,7 +265,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/ahmaddii",
       },
       {
         name: "Discord",
@@ -308,7 +280,7 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://www.instagram.com/pulsarx.inc/",
       },
       {
         name: "Twitter",
@@ -318,7 +290,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/malik-ahmad-rasheed-3768902a9/",
       },
     ],
   },
@@ -328,17 +300,17 @@ export const FOOTER_DATA = [
       {
         name: "Become Sponsor",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://www.linkedin.com/in/malik-ahmad-rasheed-3768902a9/",
       },
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "https://www.linkedin.com/in/malik-ahmad-rasheed-3768902a9/",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "malikahmad6666666@gmail.com",
       },
     ],
   },
@@ -360,5 +332,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/ahmaddii",
 };
